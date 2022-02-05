@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/drawable/back.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_addhallinfo.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_admin_login.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_adminmainpage.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_checklogin.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_guest_login.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_guest_signup.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_hall_owner_login.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_hall_owner_main_page.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_hall_owner_signup.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/DELL/Desktop/New folder/MADproject2/app/src/main/res/layout/activity_main.xml" value="0.1388888888888889" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

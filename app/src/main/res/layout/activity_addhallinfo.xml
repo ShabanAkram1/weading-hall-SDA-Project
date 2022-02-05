@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addhallinfo"
+    android:orientation="vertical"
+    android:background="@color/red"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Hall Details"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:background="@drawable/back">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_person_24_black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:drawableLeft="@drawable/ic_baseline_info_24_black"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:hint="Hall Name"
+            android:id="@+id/Hallownerhallname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:drawableLeft="@drawable/ic_baseline_info_24_black"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Hall City"
+            android:inputType="text"
+            android:id="@+id/Hallownerhallcity"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:drawableLeft="@drawable/ic_baseline_info_24_black"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Hall Location"
+            android:inputType="text"
+            android:id="@+id/Hallownerhalllocation"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+
+            android:drawableLeft="@drawable/ic_baseline_info_24_black"
+            android:drawablePadding="20dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:hint="Hall Capacity"
+            android:id="@+id/Hallownerhallcapacity"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Add Hall Data"
+            android:onClick="Addhalldetails"/>
+        <Button
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Update hall data Hall"
+            android:onClick="Updatehalldetails"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="See profile"
+            android:onClick="Seeprofile"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="Signout"
+            android:onClick="HallownerSignout"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
